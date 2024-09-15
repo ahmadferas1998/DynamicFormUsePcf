@@ -1,0 +1,43 @@
+.title,.accordion-header{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 5px;
+    color: white;
+}
+label{
+    display: flex !important;
+    justify-content: start;
+
+}
+.checkbox-group,.radio-group{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+   text-align: start !important;
+}
+.accordion-header {
+    margin-bottom: 10px !important;
+    border-radius: 7px !important;
+}
+.accordion-button{
+    display: block !important;
+width: 100% !important;
+text-align: center !important;
+}
+.accordion-body {
+    border-radius: 7px;
+    margin-bottom: 11px;
+    padding: 12px !important;
+    background-color: rgb(176 166 166 / 16%);
+}
+/* input[type="checkbox"], input[type="radio"]{
+    margin-top: 4px !important;
+    height: 5px !important;
+    width: 0px !important;
+} */
+.container{
+    height: 90vh;
+    overflow: scroll;
+}
